@@ -1,4 +1,4 @@
 import React from 'react';
 export default function Prepare () {
-  return (<div>prepare</div>)
+  return (<div>prepare page</div>)
 }
