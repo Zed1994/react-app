@@ -1,0 +1,30 @@
+.book-cover{
+  width: 70px;
+  height: 84px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 0px rgba(198, 209, 225, 0.5);
+  background: #e6edf8;
+  &::before{
+    position: absolute;
+    content: '';
+    width: 26px;
+    height: 84px;
+    top: 0;
+    right: 3px;
+    background: #e6edf8;
+    z-index: 99;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 1px 1px 2px 0px rgba(198, 209, 225, 0.5);
+  }
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 85px;
+    border-radius: 8px;
+    object-fit: cover;
+    z-index: 100;
+  }
+}
